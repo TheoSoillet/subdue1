@@ -19,7 +19,7 @@ export default function Home() {
         revealText="Subdue has solutions"
       >
         <TextRevealCardTitle>
-          Interaction example
+          Interaction example #1
         </TextRevealCardTitle>
         <TextRevealCardDescription>
           Hover over the text.

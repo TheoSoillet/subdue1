@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        figtree: ['Figtree', 'sans-serif'],
+      },
+      fontWeight: {
+        thin: "100", // Changed 100 to "100"
+      },
+
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

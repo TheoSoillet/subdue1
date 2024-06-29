@@ -11,17 +11,20 @@ export const metadata: Metadata = {
 
 function Header() {
   return (
-    <header className="flex items-center justify-between p-4 bg-[#313131] text-white rounded-full mx-4 mt-4">
+    <header className="fixed top-0 left-0 right-0 flex items-center justify-between p-4 bg-[#313131] text-white rounded-full mx-4 mt-4 z-50">
       <div className="flex items-center space-x-4">
+      <a href="/" className="flex items-center space-x-4">
         <img src="/Favicon.png" alt="Subdue Logo" className="h-10 pl-5" />
         <span className="text-2xl font-bold">Subdue</span>
+      </a>
       </div>
       <nav className="flex space-x-10">
         <a href="/capabilities" className="hover:underline text-md">Capabilities</a>
-        <a href="#" className="hover:underline text-md">Industries</a>
-        <a href="#" className="hover:underline text-md">Unlimitask</a>
-        <a href="#" className="hover:underline text-md">Resources</a>
-        <a href="#" className="hover:underline text-md">Careers</a>
+        <a href="/industries" className="hover:underline text-md">Industries</a>
+        <a href="/unlimitask" className="hover:underline text-md">Unlimitask</a>
+        <a href="/resources" className="hover:underline text-md">Resources</a>
+        <a href="/about" className="hover:underline text-md">About</a>
+        <a href="/careers" className="hover:underline text-md">Careers</a>
       </nav>
       <a href="#" className="bg-white text-black px-4 py-2 rounded-full hover:bg-gray-200">
         Contact us <span aria-hidden="true">→</span>

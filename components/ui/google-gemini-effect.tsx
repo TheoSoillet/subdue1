@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "@/utils/cn";
-import { motion, MotionValue } from "framer-motion";
+import { motion, MotionValue, useScroll, useTransform } from "framer-motion";
 import React from "react";
 
 const transition = {
@@ -19,19 +19,24 @@ export const GoogleGeminiEffect = ({
   description?: string;
   className?: string;
 }) => {
+    const { scrollY } = useScroll();
   return (
+    <motion.div
+      className={cn("sticky top-80", className)}
+      style={{  }}
+    >
+    
     <div className={cn("sticky top-80", className)}>
-      <p className="text-lg md:text-7xl font-normal pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300">
-        {title || `Build with Aceternity UI`}
+            <p className="text-lg md:text-6xl font-bold text-figtree pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300 max-w-2xl mx-auto bg-[#1C1A1E]">
+        {title || `Unlock the power of neuroscience in your business`}
       </p>
-      <p className="text-xs md:text-xl font-normal text-center text-neutral-400 mt-4 max-w-lg mx-auto">
+      <p className="text-xs md:text-xl font-normal text-center text-neutral-400 mt-4 max-w-2xl mx-auto">
         {description ||
-          `Scroll this component and see the bottom SVG come to life wow this
-        works!`}
+          `We use neuroscience techniques to create growth-focused strategy.`}
       </p>
-      <div className="w-full h-[890px] -top-60 md:-top-40  flex items-center justify-center bg-red-transparent absolute ">
+      <div className="w-full h-[790px] pt-10 -top-120 md:-top-40  flex items-center justify-center bg-red-transparent absolute  ">
         <button className="font-bold bg-white rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-24 mt-8 z-30 md:text-base text-black text-xs  w-fit mx-auto ">
-          ui.aceternity.com
+          Get started
         </button>
       </div>
       <svg
@@ -157,5 +162,6 @@ export const GoogleGeminiEffect = ({
         </defs>
       </svg>
     </div>
+    </motion.div>
   );
 };

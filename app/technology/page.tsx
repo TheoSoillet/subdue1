@@ -5,7 +5,7 @@ import { FeaturesSectionDemo } from "@/components/FeaturesSectionDemo"; // Impor
 
 
 
-const words = `As the technologies evolve rapidly, startups and tech companies need to continuously design, disrupt, and transform how they differentiate themselves. Striking the right balance between marketing, and finance helps companies ensure sustainable business growth, and turning into a global brand in the long run.`;
+const words = `As technologies evolve rapidly, startups and tech companies must continuously design, disrupt, and transform how they differentiate themselves. Striking the right balance between marketing and finance ensures sustainable business growth and helps turn companies into global brands in the long run.`;
 
 const Divider: React.FC = () => {
     return (
@@ -21,8 +21,8 @@ interface StatisticCardProps {
 const TechnologyPage: React.FC = () => {
     return (
         <div className="bg-[#131213] text-white min-h-screen ">
-            <div className="h-[50rem] w-full dark:bg-[#1C1A1E] bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
-      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-[#131213] bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+            <div className="h-[50rem] w-full dark:bg-[#1C1A1E] bg-white  dark:bg-grid-white/[0.12] bg-grid-black/[0.2] relative flex items-center justify-center">
+      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-[#131213] bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div> 
       <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text pl-40 text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
         Technology
       </p>

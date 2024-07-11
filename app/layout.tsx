@@ -67,9 +67,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`${figtree.className} bg-[#1C1A1E] dark:bg-[#1C1A1E]`}>
+      <head>
+        <link rel="icon" href="/Favicon.png" type="image/png" />
+      </head>
+      <body className={`${figtree.className} bg-[#1C1A1E] dark:bg-[#131213]`}>
         <Header />
         {children}
+        <footer className="bg-[#313131] text-white p-4 mt-10">
+          <div className="container mx-auto flex justify-between items-center ">
+            <div>
+              <p>&copy; {new Date().getFullYear()} Subdue Consulting. All rights reserved.</p>
+            </div>
+            <div className="flex space-x-4">
+              <a href="/privacy" className="hover:underline">Privacy Policy</a>
+              <a href="/terms" className="hover:underline">Terms of Service</a>
+            </div>
+          </div>
+        </footer>
       </body>
     </html>
   );

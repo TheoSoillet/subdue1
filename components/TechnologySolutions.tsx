@@ -3,42 +3,42 @@ import { useId } from 'react';
 
 const grid = [
     {
-        title: "HIPAA and SOC2 Compliant",
+        title: "Customer Centric Approach",
         description:
-            "Our applications are HIPAA and SOC2 compliant, your data is safe with us, always.",
+            "Our neuromarketing strategies and customer behavior expertise gauge emotional resonance in campaigns, and emotional mapping to deliver high impact marketing campaigns.",
     },
     {
-        title: "Automated Social Media Posting",
+        title: "High Quality Business Audits",
         description:
             "Schedule and automate your social media posts across multiple platforms to save time and maintain a consistent online presence.",
     },
     {
-        title: "Advanced Analytics",
+        title: "Integrated Marketing Strategy",
         description:
-            "Gain insights into your social media performance with detailed analytics and reporting tools to measure engagement and ROI.",
+            "We understand that your business is unique and we will work with you to understand your business and create a custom solution that meets your needs.",
     },
     {
-        title: "Content Calendar",
+        title: "B2B Strategic Framework",
         description:
             "Plan and organize your social media content with an intuitive calendar view, ensuring you never miss a post.",
     },
     {
-        title: "Audience Targeting",
+        title: "B2C Strategic Framework",
         description:
             "Reach the right audience with advanced targeting options, including demographics, interests, and behaviors.",
     },
     {
-        title: "Social Listening",
+        title: "Brand Strategy",
         description:
             "Monitor social media conversations and trends to stay informed about what your audience is saying and respond in real-time.",
     },
     {
-        title: "Customizable Templates",
+        title: "Global Strategy",
         description:
             "Create stunning social media posts with our customizable templates, designed to fit your brand's unique style and voice.",
     },
     {
-        title: "Collaboration Tools",
+        title: "Customer Relationship Management (CRM)",
         description:
             "Work seamlessly with your team using our collaboration tools, allowing you to assign tasks, share drafts, and provide feedback in real-time.",
     },

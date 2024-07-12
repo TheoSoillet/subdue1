@@ -1,7 +1,7 @@
 import React from 'react';
 import { useId } from 'react';
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
-import { FeaturesSectionDemo } from "@/components/FeaturesSectionDemo"; // Import the component
+import { FeaturesSectionDemo } from "@/components/AgricultureSolutions"; 
 
 
 
@@ -9,7 +9,7 @@ const words = `As technologies evolve rapidly, startups and tech companies must 
 
 const Divider: React.FC = () => {
     return (
-        <div className="h-1 w-1/4 bg-[#F1D089] mb-2 mx-0 justify-left"></div> // Shortened divider
+        <div className="h-1 w-1/4 bg-[#F1D089] mb-2 mx-0 justify-left"></div> 
     );
 };
 

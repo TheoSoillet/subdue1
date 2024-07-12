@@ -13,7 +13,7 @@ const CareersPage = () => {
     return (
         <div className="flex flex-col px-5 bg-[#131213] text-base leading-[57px] pl-60 pr-60 pt-60">
             <div className="self-center text-5xl font-medium text-center text-white leading-[57px] max-md:max-w-full max-md:text-4xl max-md:leading-10">
-                Participat in advanced business growth
+                Participate in advanced business growth
             </div>
             <div className="self-center mt-6 text-xl text-center text-white max-md:mt-10">
                 We are looking for talented individuals from a number of different backgrounds

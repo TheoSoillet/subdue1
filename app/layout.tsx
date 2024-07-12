@@ -74,6 +74,8 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <head>
         <link rel="icon" href="Favicon.png" type="image/png" />
+        <title>Subdue Consulting: Expert in Marketing Growth Using Neuroscience and AI | Innovative Strategies for Business Success</title>
+
       </head>
       <body className={`${figtree.className} bg-[#1C1A1E] dark:bg-[#131213]`}>
         <Header />

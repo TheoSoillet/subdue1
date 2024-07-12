@@ -3,6 +3,8 @@ import { Figtree } from "next/font/google";
 import "./globals.css";
 import { useState } from "react";
 import { metadata } from "./metadata"; // Import metadata
+import { Analytics } from "@vercel/analytics/react"; // Import Analytics
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const figtree = Figtree({ subsets: ["latin"] });
 
@@ -76,6 +78,8 @@ export default function RootLayout({
       <body className={`${figtree.className} bg-[#1C1A1E] dark:bg-[#131213]`}>
         <Header />
         {children}
+        <Analytics /> 
+        <SpeedInsights/>
         <footer className="bg-[#313131] text-white p-4 mt-10">
           <div className="container mx-auto flex justify-between items-center ">
             <div>

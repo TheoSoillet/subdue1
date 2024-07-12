@@ -48,7 +48,10 @@ function Header() {
             </div>
           )}
         </div>
-        <a href="/unlimitask" className="hover:underline text-md">Unlimitask</a>
+        <a href="/unlimitask" className="flex items-center space-x-2 hover:underline text-md">
+          <img src="/Unlimitask-Icon.png" alt="Unlimitask Icon" className="h-5 w-5" />
+          <span>Unlimitask</span>
+        </a>
         <a href="/resources" className="hover:underline text-md">Resources</a>
         <a href="/about" className="hover:underline text-md">About</a>
         <a href="/careers" className="hover:underline text-md">Careers</a>
@@ -68,7 +71,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        <link rel="icon" href="/Favicon.png" type="image/png" />
+        <link rel="icon" href="Favicon.png" type="image/png" />
       </head>
       <body className={`${figtree.className} bg-[#1C1A1E] dark:bg-[#131213]`}>
         <Header />

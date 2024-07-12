@@ -24,7 +24,7 @@ const CareersPage = () => {
             <div className="flex flex-col items-center px-16 mt-20 w-full text-xl text-white max-md:px-5 max-md:mt-10 max-md:max-w-full">
                 <img
                     loading="lazy"
-                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a6228be10de9b8371ab70b0e9b0278d036b64fdc7c0b0bf20172ac4fdff9a1d1?apiKey=cf2055fdb746408f86f5b90234158cc9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6228be10de9b8371ab70b0e9b0278d036b64fdc7c0b0bf20172ac4fdff9a1d1?apiKey=cf2055fdb746408f86f5b90234158cc9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6228be10de9b8371ab70b0e9b0278d036b64fdc7c0b0bf20172ac4fdff9a1d1?apiKey=cf2055fdb746408f86f5b90234158cc9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6228be10de9b8371ab70b0e9b0278d036b64fdc7c0b0bf20172ac4fdff9a1d1?apiKey=cf2055fdb746408f86f5b90234158cc9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6228be10de9b8371ab70b0e9b0278d036b64fdc7c0b0bf20172ac4fdff9a1d1?apiKey=cf2055fdb746408f86f5b90234158cc9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6228be10de9b8371ab70b0e9b0278d036b64fdc7c0b0bf20172ac4fdff9a1d1?apiKey=cf2055fdb746408f86f5b90234158cc9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6228be10de9b8371ab70b0e9b0278d036b64fdc7c0b0bf20172ac4fdff9a1d1?apiKey=cf2055fdb746408f86f5b90234158cc9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6228be10de9b8371ab70b0e9b0278d036b64fdc7c0b0bf20172ac4fdff9a1d1?apiKey=cf2055fdb746408f86f5b90234158cc9&"
+                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/cb2f26e3f19058ab1bf060569caa26a09765d8e02d3300eaf771975a73df5649?apiKey=cf2055fdb746408f86f5b90234158cc9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/cb2f26e3f19058ab1bf060569caa26a09765d8e02d3300eaf771975a73df5649?apiKey=cf2055fdb746408f86f5b90234158cc9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/cb2f26e3f19058ab1bf060569caa26a09765d8e02d3300eaf771975a73df5649?apiKey=cf2055fdb746408f86f5b90234158cc9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/cb2f26e3f19058ab1bf060569caa26a09765d8e02d3300eaf771975a73df5649?apiKey=cf2055fdb746408f86f5b90234158cc9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/cb2f26e3f19058ab1bf060569caa26a09765d8e02d3300eaf771975a73df5649?apiKey=cf2055fdb746408f86f5b90234158cc9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/cb2f26e3f19058ab1bf060569caa26a09765d8e02d3300eaf771975a73df5649?apiKey=cf2055fdb746408f86f5b90234158cc9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/cb2f26e3f19058ab1bf060569caa26a09765d8e02d3300eaf771975a73df5649?apiKey=cf2055fdb746408f86f5b90234158cc9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/cb2f26e3f19058ab1bf060569caa26a09765d8e02d3300eaf771975a73df5649?apiKey=cf2055fdb746408f86f5b90234158cc9&"
                     className="self-stretch w-full aspect-[1.85] max-md:max-w-full"
                 />
                 <div className='pl-200 pr-200'>
@@ -68,42 +68,42 @@ const CareersPage = () => {
                 </div>
             
             </div>
-            <div className="flex gap-5 px-7 py-4 mt-16 w-full bg-neutral-800 max-md:flex-wrap max-md:px-5 max-md:mt-10 max-md:max-w-full">
+            <div className="flex gap-5 px-7 py-4 mt-4 w-full bg-neutral-800 max-md:flex-wrap max-md:px-5 max-md:mt-10 max-md:max-w-full">
                 <div className="flex flex-1 gap-5">
-                    <div className="flex-auto text-white">Position Name Test</div>
-                    <div className="text-stone-300">Type</div>
+                    <div className="flex-auto text-white">Senior Neuroscience Marketing Strategist</div>
+                    <div className="text-stone-300 w-32">Strategy</div>
                 </div>
-                <div className="flex flex-1 gap-5 justify-between self-start">
+                <div className="flex flex-1 gap-5 justify-end items-center">
                     <div className="text-zinc-500">Flexible</div>
-                    <div className="text-amber-200">Apply now</div>
+                    <a href="/senior-neuroscience-marketing-strategist" className="text-amber-200">Apply now</a>
                 </div>
             </div>
             <div className="flex gap-5 items-start px-7 py-4 mt-3.5 w-full bg-neutral-800 max-md:flex-wrap max-md:px-5 max-md:max-w-full">
                 <div className="flex flex-1 gap-5">
-                    <div className="flex-auto text-white">Position Name Test</div>
-                    <div className="text-stone-300">Type</div>
+                    <div className="flex-auto text-white">AI-Driven Marketing Solutions Architect</div>
+                    <div className="text-stone-300 w-32">Engineering</div>
                 </div>
-                <div className="flex flex-1 gap-5 justify-between">
+                <div className="flex flex-1 gap-5 justify-end items-center">
                     <div className="text-zinc-500">Flexible</div>
                     <div className="text-amber-200">Apply now</div>
                 </div>
             </div>
             <div className="flex gap-5 px-7 py-4 mt-3.5 w-full bg-neutral-800 max-md:flex-wrap max-md:px-5 max-md:max-w-full">
                 <div className="flex flex-1 gap-5">
-                    <div className="flex-auto text-white">Position Name Test</div>
-                    <div className="text-stone-300">Type</div>
+                    <div className="flex-auto text-white">Lead Data Scientist - Marketing Analytics</div>
+                    <div className="text-stone-300 w-32">Data Science</div>
                 </div>
-                <div className="flex flex-1 gap-5 justify-between self-start">
+                <div className="flex flex-1 gap-5 justify-end items-center">
                     <div className="text-zinc-500">Flexible</div>
                     <div className="text-amber-200">Apply now</div>
                 </div>
             </div>
-            <div className="flex gap-5 items-start px-7 py-4 mt-3.5 w-full bg-neutral-800 max-md:flex-wrap max-md:px-5 max-md:max-w-full">
+            <div className="flex gap-5 mb-40 items-start px-7 py-4 mt-3.5 w-full bg-neutral-800 max-md:flex-wrap max-md:px-5 max-md:max-w-full">
                 <div className="flex flex-1 gap-5">
-                    <div className="flex-auto text-white">Position Name Test</div>
-                    <div className="text-stone-300">Type</div>
+                    <div className="flex-auto text-white">Marketing Technology Specialist</div>
+                    <div className="text-stone-300 w-32">Technology</div>
                 </div>
-                <div className="flex flex-1 gap-5 justify-between">
+                <div className="flex flex-1 gap-5 justify-end items-center">
                     <div className="text-zinc-500">Flexible</div>
                     <div className="text-amber-200">Apply now</div>
                 </div>

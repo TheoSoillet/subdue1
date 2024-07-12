@@ -85,7 +85,7 @@ const CareersPage = () => {
                 </div>
                 <div className="flex flex-1 gap-5 justify-end items-center">
                     <div className="text-zinc-500">Flexible</div>
-                    <div className="text-amber-200">Apply now</div>
+                    <a href="/ai-driven-marketing-solutions-architect" className="text-amber-200">Apply now</a>
                 </div>
             </div>
             <div className="flex gap-5 px-7 py-4 mt-3.5 w-full bg-neutral-800 max-md:flex-wrap max-md:px-5 max-md:max-w-full">
@@ -95,7 +95,7 @@ const CareersPage = () => {
                 </div>
                 <div className="flex flex-1 gap-5 justify-end items-center">
                     <div className="text-zinc-500">Flexible</div>
-                    <div className="text-amber-200">Apply now</div>
+                    <a href="/lead-data-scientist-marketing-analytics" className="text-amber-200">Apply now</a>
                 </div>
             </div>
             <div className="flex gap-5 mb-40 items-start px-7 py-4 mt-3.5 w-full bg-neutral-800 max-md:flex-wrap max-md:px-5 max-md:max-w-full">
@@ -105,7 +105,7 @@ const CareersPage = () => {
                 </div>
                 <div className="flex flex-1 gap-5 justify-end items-center">
                     <div className="text-zinc-500">Flexible</div>
-                    <div className="text-amber-200">Apply now</div>
+                    <a href="/marketing-technology-specialist" className="text-amber-200">Apply now</a>
                 </div>
             </div>
         </div>

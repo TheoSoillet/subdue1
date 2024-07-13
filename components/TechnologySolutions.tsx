@@ -5,7 +5,7 @@ const grid = [
     {
         title: "Customer Centric Approach",
         description:
-            "Our neuromarketing strategies and customer behavior expertise gauge emotional resonance in campaigns, and emotional mapping to deliver high impact marketing campaigns.",
+            "We create emotional mapping, and resonance in campaigns by leveraging neuromarketing to deliver high impact promotional campaigns.",
     },
     {
         title: "High Quality Business Audits",

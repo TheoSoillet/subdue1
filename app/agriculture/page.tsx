@@ -5,7 +5,7 @@ import { FeaturesSectionDemo } from "@/components/AgricultureSolutions";
 
 
 
-const words = `As technologies evolve rapidly, startups and tech companies must continuously design, disrupt, and transform how they differentiate themselves. Striking the right balance between marketing and finance ensures sustainable business growth and helps turn companies into global brands in the long run.`;
+const words = `As AI evolves with time so does the need of modern farming techs, and a synergy between the AI farming tech providers, and large scale farming operations.`;
 
 const Divider: React.FC = () => {
     return (

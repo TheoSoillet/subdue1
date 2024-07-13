@@ -20,8 +20,7 @@ const grid = [
     {
         title: "B2B Strategic Framework",
         description:
-            "We use behavioral drivers, and Marketing synergy for Neuroscience driven content, and data driven decision making. AI for smart automation, and to increase the efficiency of employees. 
-",
+            "We use behavioral drivers, and Marketing synergy for Neuroscience driven content, and data driven decision making. AI for smart automation, and to increase the efficiency of employees.",
     },
     {
         title: "B2C Strategic Framework",

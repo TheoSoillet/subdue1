@@ -10,7 +10,7 @@ const grid = [
     {
         title: "High Quality Business Audits",
         description:
-            "Schedule and automate your social media posts across multiple platforms to save time and maintain a consistent online presence.",
+            "Our high-quality business audits exactly identify industry opportunities, strengths, and weaknesses, and help build a roadmap for success.",
     },
     {
         title: "Integrated Marketing Strategy",

@@ -58,7 +58,7 @@ function Header() {
         <a href="/about" className="hover:underline text-md">About</a>
         <a href="/careers" className="hover:underline text-md">Careers</a>
       </nav>
-      <a href="#" className="bg-white text-black px-4 py-2 rounded-full hover:bg-gray-200">
+      <a href="/contact" className="bg-white text-black px-4 py-2 rounded-full hover:bg-gray-200">
         Contact us <span aria-hidden="true">→</span>
       </a>
     </header>

@@ -15,7 +15,7 @@ const grid = [
     {
         title: "Integrated Marketing Strategy",
         description:
-            "We understand that your business is unique and we will work with you to understand your business and create a custom solution that meets your needs.",
+            "A multidisciplinary approach using our marketing expertise, insights, AI, and neuromarketing creates an effective integrated marketing strategy tailored to the now.",
     },
     {
         title: "B2B Strategic Framework",

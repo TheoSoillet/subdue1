@@ -20,27 +20,28 @@ const grid = [
     {
         title: "B2B Strategic Framework",
         description:
-            "Plan and organize your social media content with an intuitive calendar view, ensuring you never miss a post.",
+            "We use behavioral drivers, and Marketing synergy for Neuroscience driven content, and data driven decision making. AI for smart automation, and to increase the efficiency of employees. 
+",
     },
     {
         title: "B2C Strategic Framework",
         description:
-            "Reach the right audience with advanced targeting options, including demographics, interests, and behaviors.",
+            "A conversion-centric framework: Fostering connections beyond the superficial, and crafting engaging narratives is the recipe for success in B2C businesses.",
     },
     {
         title: "Brand Strategy",
         description:
-            "Monitor social media conversations and trends to stay informed about what your audience is saying and respond in real-time.",
+            "Our brand strategy combines science and creativity that leaves a lasting brand impression, and drives customer loyalty.",
     },
     {
         title: "Global Strategy",
         description:
-            "Create stunning social media posts with our customizable templates, designed to fit your brand's unique style and voice.",
+            "Recommending new markets to expand business, we take into account the past, present, future of the business landscape, cultural awareness, scalability, and stability.",
     },
     {
         title: "Customer Relationship Management (CRM)",
         description:
-            "Work seamlessly with your team using our collaboration tools, allowing you to assign tasks, share drafts, and provide feedback in real-time.",
+            "Post sales management, and remarketing are the two main drivers for long term growth, and sustainability of the company.",
     },
 ];
 

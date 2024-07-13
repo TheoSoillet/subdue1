@@ -1,6 +1,5 @@
 import React from "react";
 import { Tabs } from "@/components/ui/tabs";
-import BentoPage from "@/app/bento/page";
 import GoogleGeminiEffectDemo from "@/app/gemini/page";
 import StickyScrollRevealDemo from "../components/ui/sticky";
 
@@ -35,7 +34,6 @@ export default function Home() {
           <p className="text-lg mb-8 font-thin pr-200 pl-200 mr-400">
             This is not magic. It's a combination of neuroscience and AI.
           </p>
-          <BentoPage />
           <StickyScrollRevealDemo />
         </div>
       </div>

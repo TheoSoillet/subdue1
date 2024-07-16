@@ -5,7 +5,7 @@ import { FeaturesSectionDemo } from "@/components/AgricultureSolutions";
 
 
 
-const words = `Agricultural marketing plays a central role in linking farmers, agri-product companies with consumers, ensuring supply chain efficiency, providing valuable insights about consumer preferences, strategic pricing, and driving business growth for B2C Agribusinesses.';
+const words = "Agricultural marketing plays a central role in linking farmers, agri-product companies with consumers, ensuring supply chain efficiency, providing valuable insights about consumer preferences, strategic pricing, and driving business growth for B2C Agribusinesses.";
 
 const Divider: React.FC = () => {
     return (
@@ -32,7 +32,7 @@ const AgriculturePage: React.FC = () => {
       </div>
       <div className='font-light text-white text-2xl font-medium leading-snug tracking-wide mt-20 mb-20 pl-40 pr-40'>
         <p>
-        At Subdue, we help agribusiness companies use marketing as a competitive differentiator not an expense. We use business strategies with a powerful combination of neuroscience, psychology, marketing, and artificial intelligence, and make sure our clients dominate the ever evolving digital landscape of B2C product selling, while our efficient financial management systems help companies to manage their cash flow.
+        "At Subdue, we help agribusiness companies use marketing as a competitive differentiator not an expense. We use business strategies with a powerful combination of neuroscience, psychology, marketing, and artificial intelligence, and make sure our clients dominate the ever evolving digital landscape of B2C product selling, while our efficient financial management systems help companies to manage their cash flow."
         </p>
       </div>
             <h1 className="text-4xl font-semibold max-md:text-4xl mb-10 pl-40 pr-40">Technology now</h1> 

@@ -92,7 +92,11 @@ const ContactPage = () => {
                     </h1>
                     <h1 className="text-5xl font-medium mt-2 mb-4 text-left">
                     24/7 reachable & Unlimited meetings to your desire                    </h1>
+                    <p className="text-lg mb-8 font-thin pr-200 mb-20 pb-40 pl-200 mr-400 text-left">
+                        Lorem ipsum this is a text that needs to be fill. A small explanation of what we do or a preview of a process.
+                    </p>
                 </div>
+                
                 <div  style={{ flex: 1, position: 'sticky', top: '0', height: '100vh', marginTop: '0px' }}>
                     <CalendlyWidget />
                 </div>

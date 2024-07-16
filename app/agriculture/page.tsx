@@ -35,7 +35,7 @@ const AgriculturePage: React.FC = () => {
         "At Subdue, we help agribusiness companies use marketing as a competitive differentiator not an expense. We use business strategies with a powerful combination of neuroscience, psychology, marketing, and artificial intelligence, and make sure our clients dominate the ever evolving digital landscape of B2C product selling, while our efficient financial management systems help companies to manage their cash flow."
         </p>
       </div>
-            <h1 className="text-4xl font-semibold max-md:text-4xl mb-10 pl-40 pr-40">Technology now</h1> 
+            <h1 className="text-4xl font-semibold max-md:text-4xl mb-10 pl-40 pr-40">Agriculture Sector now</h1> 
 
             <main className="flex gap-5 max-md:flex-col max-md:gap-0 top-40 pt-100 mt-100 pl-40 pr-40">
 
@@ -43,29 +43,30 @@ const AgriculturePage: React.FC = () => {
                     
                     <div className="flex flex-col px-5 font-medium text-white max-md:mt-10">
                         <Divider />
+                        <div className="mt-6 text-7xl max-md:text-4xl">$90.1 Bn</div>
+                        <p className="mt-8 text-xl font-light">
+                        E-commerce of Agricultural Products Market size by 2033
+
+                        </p>
+                    </div>
+                </section>
+                <section className="flex flex-col w-[31%] max-md:ml-0 max-md:w-full">
+                    <div className="flex flex-col px-5 font-medium text-white max-md:mt-10">
+                        <Divider />
+                        <div className="mt-6 text-7xl max-md:text-4xl">1</div>
+                        <p className="mt-8 text-xl font-light">
+                        The amount of years it takes to establish as a national agribusiness brand in 2024*
+                        
+
+                        </p>
+                    </div>
+                </section>
+                <section className="flex flex-col w-[31%] max-md:ml-0 max-md:w-full">
+                    <div className="flex flex-col px-5 font-medium text-white max-md:mt-10">
+                        <Divider />
                         <div className="mt-6 text-7xl max-md:text-4xl">16.3%</div>
                         <p className="mt-8 text-xl font-light">
-                        of the overall budgets goes to marketing for companies with revenues between $10 million and $100 million dollars
-
-                        </p>
-                    </div>
-                </section>
-                <section className="flex flex-col w-[31%] max-md:ml-0 max-md:w-full">
-                    <div className="flex flex-col px-5 font-medium text-white max-md:mt-10">
-                        <Divider />
-                        <div className="mt-6 text-7xl max-md:text-4xl">13.4%</div>
-                        <p className="mt-8 text-xl font-light">
-                        of the overall budgets goes to marketing for companies with revenues between $100 million and $1 Billion dollars
-
-                        </p>
-                    </div>
-                </section>
-                <section className="flex flex-col w-[31%] max-md:ml-0 max-md:w-full">
-                    <div className="flex flex-col px-5 font-medium text-white max-md:mt-10">
-                        <Divider />
-                        <div className="mt-6 text-7xl max-md:text-4xl">10.9%</div>
-                        <p className="mt-8 text-xl font-light">
-                        of the overall budgets goes to marketing for companies with revenues over $1 Billion dollars
+                        of the overall budgets goes to marketing for companies with revenues up to $100 Million dollars
 
                         </p>
                     </div>

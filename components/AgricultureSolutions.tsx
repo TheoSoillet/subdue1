@@ -3,44 +3,44 @@ import { useId } from 'react';
 
 const grid = [
     {
-        title: "Agri Centric Approach",
+        title: "Agri-consumer Centric Approach",
         description:
-            "Our neuromarketing strategies and customer behavior expertise gauge emotional resonance in campaigns, and emotional mapping to deliver high impact marketing campaigns.",
+            "We create emotional mapping, and resonance in campaigns especially tailored to the needs of agricultural product consumers by leveraging neuromarketing to deliver high impact promotional campaigns.",
     },
     {
         title: "High Quality Business Audits",
         description:
-            "Schedule and automate your social media posts across multiple platforms to save time and maintain a consistent online presence.",
+            "Our high-quality business audits exactly identify industry opportunities, strengths, and weaknesses, and help build a roadmap for success.",
     },
     {
         title: "Integrated Marketing Strategy",
         description:
-            "We understand that your business is unique and we will work with you to understand your business and create a custom solution that meets your needs.",
+            "A multidisciplinary approach using our marketing expertise, insights, AI, and neuromarketing creates an effective integrated marketing strategy tailored to the now.",
     },
     {
-        title: "B2B Strategic Framework",
+        title: "Large scale farming operations",
         description:
-            "Plan and organize your social media content with an intuitive calendar view, ensuring you never miss a post.",
+            "We identify latest tools, and technologies which needs to be used especially catered to the scale of farming operations, thereby increasing outputs, and enhancing overall efficiency of large farming operations.",
     },
     {
         title: "B2C Strategic Framework",
         description:
-            "Reach the right audience with advanced targeting options, including demographics, interests, and behaviors.",
+            "A conversion-centric framework: Fostering connections beyond the superficial, and crafting engaging narratives is the recipe for success in B2C businesses.",
     },
     {
         title: "Brand Strategy",
         description:
-            "Monitor social media conversations and trends to stay informed about what your audience is saying and respond in real-time.",
+            "Our brand strategy combines science and creativity that leaves a lasting brand impression, and drives customer loyalty.",
     },
     {
         title: "Global Strategy",
         description:
-            "Create stunning social media posts with our customizable templates, designed to fit your brand's unique style and voice.",
+            "Recommending new markets to expand business, we take into account the past, present, future of the business landscape, cultural awareness, scalability, and stability.",
     },
     {
         title: "Customer Relationship Management (CRM)",
         description:
-            "Work seamlessly with your team using our collaboration tools, allowing you to assign tasks, share drafts, and provide feedback in real-time.",
+            "Post sales management, and remarketing are the two main drivers for long term growth, and sustainability of the company.",
     },
 ];
 

@@ -43,10 +43,10 @@ const ContactPage = () => {
                         2.
                     </h1>
                     <h1 className="text-5xl font-medium mt-2 mb-4 text-left">
-                        An access to premium AI tools, and advanced knowledge content.
+                        A lifetime access to premium AI tools, and advanced business knowledge.
                     </h1>
                     <p className="text-lg mb-8 font-thin pr-200 pl-200 mr-4000 text-left">
-                        Lorem ipsum this is a text that needs to be fill. A small explanation of what we do or a preview of a process.
+                        An initiative with the advent of AI, it is our promise that 
                     </p>
                     <div className="flex flex-col justify-center text-white max-w-[639px] rounded-[35px]">
     <div className="flex gap-5 items-start pt-14 pl-12 w-full rounded-3xl bg-zinc-800 max-md:flex-wrap max-md:pl-5 max-md:max-w-full">
@@ -75,10 +75,9 @@ const ContactPage = () => {
           Knowledge base
         </div>
         <div className="mt-14 text-4xl font-medium max-md:mt-10 max-md:max-w-full max-md:text-4xl">
-        Subdue Center for Advanced Marketing        </div>
+        Subdue Center for Advanced Marketing, and Artificial Intelligence        </div>
         <div className="mt-11 text-xl max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
-          Lorem ipsum this is a text that needs to be fill. A small
-          explanation of what we do or a preview of a process.{" "}
+          An innovative initiative by Subdue, which helps our clients always stay up-to-date with latest technology, and strategies in the ever evolving business landscape.{" "}
         </div>
         <div className="justify-center self-start px-4 py-4 mt-24 text-lg mb-10 font-medium text-black bg-amber-200 rounded-[52px] max-md:px-5 max-md:mt-10">
           Coming soon
@@ -91,9 +90,9 @@ const ContactPage = () => {
                         3.
                     </h1>
                     <h1 className="text-5xl font-medium mt-2 mb-4 text-left">
-                    24/7 reachable & Unlimited meetings to your desire                    </h1>
+                    A satisfaction guarantee: Our Promise                  </h1>
                     <p className="text-lg mb-8 font-thin pr-200 mb-20 pb-4 pl-200 mr-400 text-left">
-                        Lorem ipsum this is a text that needs to be fill. A small explanation of what we do or a preview of a process.
+                    We offer 24/7 customer support, and meetings to our clients, as we truly care about whom we work with. 
                     </p>
                 </div>
                 

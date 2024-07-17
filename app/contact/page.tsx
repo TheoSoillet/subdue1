@@ -58,8 +58,7 @@ const ContactPage = () => {
           A one stop destination for your AI modernization needs
         </div>
         <div className="mt-11 text-xl max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
-          Lorem ipsum this is a text that needs to be fill. A small
-          explanation of what we do or a preview of a process.{" "}
+          Our AI tools helps clients automate many business processes ensuring efficiency, and smoother management.{" "}
         </div>
         <div className="justify-center self-start px-4 py-4 mt-24 text-lg mb-10 font-medium text-black bg-amber-200 rounded-[52px] max-md:px-5 max-md:mt-10">
           Coming soon
@@ -90,7 +89,7 @@ const ContactPage = () => {
                         3.
                     </h1>
                     <h1 className="text-5xl font-medium mt-2 mb-4 text-left">
-                    A satisfaction guarantee: Our Promise                  </h1>
+                    Client Satisfaction Guarantee                  </h1>
                     <p className="text-lg mb-8 font-thin pr-200 mb-20 pb-4 pl-200 mr-400 text-left">
                     We offer 24/7 customer support, and meetings to our clients, as we truly care about whom we work with. 
                     </p>

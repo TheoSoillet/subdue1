@@ -27,10 +27,10 @@ const ContactPage = () => {
                         1.
                     </h1>
                     <h1 className="text-5xl font-medium mt-2 mb-4 text-left">
-                    Here's what a roadmap to success looks like                   
+                    Here's what a roadmap to business success looks like                   
                     </h1>
                     <p className="text-lg mb-8 font-thin pr-200 pl-200 mr-400 text-left">
-                        A process built to ensure smooth workflow, reporting, and feedback. Keeping you at the center of success.
+                        A process built with the promise of value, and meaningful change, keeping our client's business needs in mind at every step.
                     </p>
                     <div className="flex flex-col px-14 pt-16 pb-8 max-w-screen-sm rounded-3xl bg-zinc-800 max-md:px-5">
                         <img

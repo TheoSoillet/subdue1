@@ -43,10 +43,10 @@ const ContactPage = () => {
                         2.
                     </h1>
                     <h1 className="text-5xl font-medium mt-2 mb-4 text-left">
-                        A lifetime access to premium AI tools, and advanced business knowledge.
+                        A lifetime access to Subdue AI, and Subdue business center.
                     </h1>
                     <p className="text-lg mb-8 font-thin pr-200 pl-200 mr-4000 text-left">
-                        An initiative with the advent of AI, it is our promise that 
+                        With the advent of AI, and Web 4.0, it is our promise to keep you, and your business updated, and integrated with everything out there, no matter if you are a client or were a client of Subdue. 
                     </p>
                     <div className="flex flex-col justify-center text-white max-w-[639px] rounded-[35px]">
     <div className="flex gap-5 items-start pt-14 pl-12 w-full rounded-3xl bg-zinc-800 max-md:flex-wrap max-md:pl-5 max-md:max-w-full">
@@ -55,7 +55,7 @@ const ContactPage = () => {
           Subdue AI
         </div>
         <div className="mt-14 text-4xl font-medium max-md:mt-10 max-md:max-w-full max-md:text-4xl">
-          An AI powered sales assistant chatbot
+          A one stop destination for your AI modernization needs
         </div>
         <div className="mt-11 text-xl max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
           Lorem ipsum this is a text that needs to be fill. A small
@@ -72,10 +72,10 @@ const ContactPage = () => {
     <div className="flex gap-5 items-start pt-14 pl-12 w-full rounded-3xl bg-zinc-800 max-md:flex-wrap max-md:pl-5 max-md:max-w-full">
       <div className="flex flex-col grow shrink-0 self-start basis-0  mr-4 w-fit max-md:max-w-full">
         <div className="text-lg tracking-wide text-white max-md:max-w-full">
-          Knowledge base
+          Subdue Business Center
         </div>
         <div className="mt-14 text-4xl font-medium max-md:mt-10 max-md:max-w-full max-md:text-4xl">
-        Subdue Center for Advanced Marketing, and Artificial Intelligence        </div>
+        For Advanced Marketing, and Artificial Intelligence        </div>
         <div className="mt-11 text-xl max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
           An innovative initiative by Subdue, which helps our clients always stay up-to-date with latest technology, and strategies in the ever evolving business landscape.{" "}
         </div>

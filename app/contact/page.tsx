@@ -19,7 +19,7 @@ const ContactPage = () => {
     return (
         <div style={{ display: 'flex', backgroundColor: '#1C1A1E', flexDirection: 'column', height: '100vh', overflow: 'auto' }}>
             <h1 className="text-6xl font-medium mt-40 text-left ml-20">
-                Understand what it's like <br></br>to work with us.
+            Transform, disrupt, and <br></br>become a leader in your industry.
             </h1>
             <div style={{ display: 'flex', flex: 1 }}>
                 <div className='ml-20 mr-20' style={{ flex: 1 }}>
@@ -27,10 +27,10 @@ const ContactPage = () => {
                         1.
                     </h1>
                     <h1 className="text-5xl font-medium mt-2 mb-4 text-left">
-                        A process built for duration, adapted to your business and industry.                   
+                    Here's what a roadmap to success looks like                   
                     </h1>
                     <p className="text-lg mb-8 font-thin pr-200 pl-200 mr-400 text-left">
-                        Lorem ipsum this is a text that needs to be fill. A small explanation of what we do or a preview of a process.
+                        A process built to ensure smooth workflow, reporting, and feedback. Keeping you at the center of success.
                     </p>
                     <div className="flex flex-col px-14 pt-16 pb-8 max-w-screen-sm rounded-3xl bg-zinc-800 max-md:px-5">
                         <img

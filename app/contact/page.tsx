@@ -43,7 +43,7 @@ const ContactPage = () => {
                         2.
                     </h1>
                     <h1 className="text-5xl font-medium mt-2 mb-4 text-left">
-                        A lifetime access to Subdue AI, and Subdue business center.
+                        A lifetime access to Subdue AI, and Subdue Business Center.
                     </h1>
                     <p className="text-lg mb-8 font-thin pr-200 pl-200 mr-4000 text-left">
                         With the advent of AI, and Web 4.0, it is our promise to keep you, and your business updated, and integrated with everything out there, no matter if you are a client or were a client of Subdue. 

@@ -16,7 +16,7 @@ export function Hero() {
             console.log("clicked");
           }}
         >
-          Approved by Harvard Business Review
+Advisor of Harvard Business Review
         </Badge>
           <h1 className="text-3xl md:text-4xl lg:text-7xl tracking-tight font-bold mt-4 mb-8relative text-center text-zinc-700 dark:text-white max-w-6xl mx-auto pr-20 ">
             Your digital marketing plan{" "}
@@ -157,33 +157,23 @@ export function LogoCloudMarquee() {
   const logos = [
     
     {
-      name: "Gamity",
-      src: "https://assets.aceternity.com/pro/logos/gamity.png",
+      name: "Spotify",
+      src: "https://cdn.builder.io/api/v1/image/assets/TEMP/d5c3d8cccfbe35de0b01a1f102dfb1175a916e09d35c8c85cff7911d11c1c92b?placeholderIfAbsent=true&apiKey=cf2055fdb746408f86f5b90234158cc9&",
     },
     {
-      name: "Host it",
-      src: "https://assets.aceternity.com/pro/logos/hostit.png",
+      name: "Netflix",
+      src: "https://cdn.builder.io/api/v1/image/assets/TEMP/e4aa4513a9067ac9c6aa821c1a7b04e4090452dad7afcd06ffac7f74e21041ec?placeholderIfAbsent=true&apiKey=cf2055fdb746408f86f5b90234158cc9&",
     },
     {
-      name: "Asteroid Kit",
-      src: "https://assets.aceternity.com/pro/logos/asteroid-kit.png",
+      name: "Adobe",
+      src: "https://cdn.builder.io/api/v1/image/assets/TEMP/73bfc5b03cd09f7946f6f68e4cd5b5fc016e2f1053e1eb66d75264ccd3d16c90?placeholderIfAbsent=true&apiKey=cf2055fdb746408f86f5b90234158cc9&",
     },
+
     {
-      name: "Aceternity UI 2",
-      src: "https://assets.aceternity.com/pro/logos/aceternity-ui.png",
+      name: "Path",
+      src: "https://cdn.builder.io/api/v1/image/assets/TEMP/5227f8c2e332a8954e55c37b83017ef636f3b647fbff2f4f6e62eb24f60bb603?placeholderIfAbsent=true&apiKey=cf2055fdb746408f86f5b90234158cc9&",
     },
-    {
-      name: "Gamity 2",
-      src: "https://assets.aceternity.com/pro/logos/gamity.png",
-    },
-    {
-      name: "Host it 2",
-      src: "https://assets.aceternity.com/pro/logos/hostit.png",
-    },
-    {
-      name: "Asteroid Kit 2",
-      src: "https://assets.aceternity.com/pro/logos/asteroid-kit.png",
-    },
+    
   ];
 
   return (
@@ -201,7 +191,7 @@ export function LogoCloudMarquee() {
               alt={logo.name}
               width="100"
               height="100"
-              className=" md:w-40 w-32 object-contain filter mx-0 md:mx-10 dark:invert"
+              className=" md:w-40 w-32 object-contain filter mx-0 md:mx-10 "
             />
           ))}
         </Marquee>

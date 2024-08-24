@@ -6,13 +6,25 @@ import { metadata } from "./metadata"; // Import metadata
 import { Analytics } from "@vercel/analytics/react"; // Import Analytics
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Footer } from "@/components/footer"; // Adjust the path as necessary
+import { Button } from "@/components/button";
+import { CONSTANTS } from "@/constants/links";
+import { useCalEmbed } from "@/hooks/useCalEmbed";
 
 const figtree = Figtree({ subsets: ["latin"] });
 
 function Header() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   let timeoutId: NodeJS.Timeout;
-
+  const calOptions = useCalEmbed({
+    namespace: CONSTANTS.CALCOM_NAMESPACE,
+    styles: {
+      branding: {
+        brandColor: CONSTANTS.CALCOM_BRAND_COLOR,
+      },
+    },
+    hideEventTypeDetails: CONSTANTS.CALCOM_HIDE_EVENT_TYPE_DETAILS,
+    layout: CONSTANTS.CALCOM_LAYOUT,
+  }); 
   const handleMouseEnter = () => {
     clearTimeout(timeoutId);
     setIsDropdownOpen(true);
@@ -59,9 +71,16 @@ function Header() {
         <a href="/about" className="hover:underline text-md">About</a>
         <a href="/careers" className="hover:underline text-md">Careers</a>
       </nav>
-      <a href="/contact" className="bg-white text-black px-4 py-2 rounded-full hover:bg-gray-200">
-        Contact us <span aria-hidden="true">→</span>
-      </a>
+      <Button
+              data-cal-namespace={calOptions.namespace}
+              data-cal-link={CONSTANTS.CALCOM_LINK}
+              data-cal-config={`{"layout":"${calOptions.layout}"}`}
+              as="button"
+              variant="primary"
+              className="hidden md:block bg-white text-black"
+            >
+              Book a call
+            </Button>
     </header>
   );
 }

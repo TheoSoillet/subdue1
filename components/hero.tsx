@@ -4,20 +4,35 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
+import { Button } from "./button";
+import { CONSTANTS } from "@/constants/links";
+
 import { cn } from "@/lib/utils";
+import { useCalEmbed } from "@/hooks/useCalEmbed";
 
 export function Hero() {
+  const calOptions = useCalEmbed({
+    namespace: CONSTANTS.CALCOM_NAMESPACE,
+    styles: {
+      branding: {
+        brandColor: CONSTANTS.CALCOM_BRAND_COLOR,
+      },
+    },
+    hideEventTypeDetails: CONSTANTS.CALCOM_HIDE_EVENT_TYPE_DETAILS,
+    layout: CONSTANTS.CALCOM_LAYOUT,
+  });
+
   return (
     <div className="w-full bg-gray-50 dark:bg-neutral-950 relative overflow-hidden">
       <div className="relative pb-4 flex flex-col items-center justify-center overflow-hidden px-8  md:px-8 ">
         <div className="relative flex flex-col items-center justify-center  mt-20 ">
-        <Badge
-          onClick={() => {
-            console.log("clicked");
-          }}
-        >
-Advisor of Harvard Business Review
-        </Badge>
+          <Badge
+            onClick={() => {
+              console.log("clicked");
+            }}
+          >
+            Advisor of Harvard Business Review
+          </Badge>
           <h1 className="text-3xl md:text-4xl lg:text-7xl tracking-tight font-bold mt-4 mb-8relative text-center text-zinc-700 dark:text-white max-w-6xl mx-auto pr-20 ">
             Your digital marketing plan{" "}
             <span className="relative bg-clip-text text-transparent bg-gradient-to-b from-[#F1D089] to-[#F1D089] z-10">
@@ -65,11 +80,16 @@ Advisor of Harvard Business Review
           </h2>
         </div>
         <div className="relative z-10 group mb-10">
-        <Link href="/contact">
-            <button className="px-8 py-2 rounded-lg bg-black dark:bg-white dark:text-black font-medium text-white shadow-[0px_-2px_0px_0px_rgba(255,255,255,0.4)_inset]">
+        <Button
+              data-cal-namespace={calOptions.namespace}
+              data-cal-link={CONSTANTS.CALCOM_LINK}
+              data-cal-config={`{"layout":"${calOptions.layout}"}`}
+              as="button"
+              variant="primary"
+              className="hidden md:block bg-white text-black"
+            >
               Book a call
-            </button>
-          </Link>
+            </Button>
         </div>
         <LogoCloudMarquee />
       </div>
